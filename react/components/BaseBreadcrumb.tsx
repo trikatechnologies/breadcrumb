@@ -83,8 +83,8 @@ const Breadcrumb: React.FC<Props> = ({
   }
 
   return (
-    <div data-testid="breadcrumb" className={`${handles.container} pv3`}>
-      <Link
+    <div data-testid="breadcrumb" className={`${handles.container} ${categoryTree?'':'dn'} pv3`}>
+     <Link
         className={`${handles.link} ${handles.homeLink} ${linkBaseClasses} v-mid`}
         page="store.home"
       >
