@@ -15,7 +15,7 @@ The VTEX BreadCrumb is a navigation scheme that shows a user's browsing history 
 
 ```json
   dependencies: {
-    "vtex.breadcrumb": "1.x"
+   "muralsyourway.breadcrumb": "1.x",
   }
 ```
 

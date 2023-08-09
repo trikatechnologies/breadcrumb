@@ -67,7 +67,7 @@ const Breadcrumb: React.FC<Props> = ({
             <Link
               className={`${linkBaseClasses}`}
               to={`/wall-murals`}
-              style={{color:"#5f697a"}}
+              style={{color:"#444041"}}
               // See https://github.com/vtex-apps/breadcrumb/pull/66 for the reasoning behind this
               waitToPrefetch={1200}
             >
